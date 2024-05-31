@@ -29,7 +29,11 @@ function AppRouter () {
                     path='/servicios'
                     element= {<Servicios/>}
                 />
-                
+                <Route
+                    path='/servicios/:id'
+                    element= {<Servicios/>}
+                />
+
                 <Route
                     path='/login'
                     element= {<Login/>}

@@ -5,10 +5,12 @@ function Danza() {
     return (  
         <>
             <NavBar/> 
+
+            <TalleresMenu/>
+
             <h1>
                 ESTAS EN EL TALLER DE DANZAS
             </h1>
-            <TalleresMenu/>
         </>
     );
 }

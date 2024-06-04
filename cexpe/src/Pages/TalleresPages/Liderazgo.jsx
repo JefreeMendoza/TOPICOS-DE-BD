@@ -1,16 +1,19 @@
-import NavBar from '../../Components/NavBar' ;
-import TalleresRouter from '../../Routes/TalleresRouter' 
+import NavBar from '../../Components/NavBar'
+import TalleresMenu from '../../Components/TalleresMenu'
+
 
 function Liderazgo() {
 
     return (  
         <>
             <NavBar/> 
+
+            <TalleresMenu/>
+
             <h1>
-                ESTAS EN LA PAGINA DE LIDERAZGO
+                ESTAS EN EL TALLER DE LIDERAZGO
             </h1>
 
-            <TalleresRouter/> 
         </>
     );
 }

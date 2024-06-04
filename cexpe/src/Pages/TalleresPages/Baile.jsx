@@ -1,16 +1,18 @@
-import NavBar from '../../Components/NavBar' ;
-import TalleresRouter from '../../Routes/TalleresRouter' 
+import NavBar from '../../Components/NavBar'
+import TalleresMenu from '../../Components/TalleresMenu'
 
 function Baile() {
 
     return (  
         <>
             <NavBar/> 
+
+            <TalleresMenu/>
+
             <h1>
-                ESTAS EN LA PAGINA DE BAILE
+                ESTAS EN EL TALLER DE BAILE
             </h1>
 
-            <TalleresRouter/> 
         </>
     );
 }

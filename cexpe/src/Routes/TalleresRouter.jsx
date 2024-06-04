@@ -1,5 +1,5 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom'
+/* import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Danza from '../Pages/TalleresPages/Danza'
 import Baile from   '../Pages/TalleresPages/Baile'
@@ -8,7 +8,7 @@ import Liderazgo from  '../Pages/TalleresPages/Liderazgo'
 
 function TalleresRouter() {
     return (  
-      
+        <BrowserRouter>
             <Routes>
                 <Route
                     exact path='/talleres/danza'
@@ -31,8 +31,9 @@ function TalleresRouter() {
                 />
 
             </Routes>
-
+        </BrowserRouter>
     );
 }
 
 export default TalleresRouter;
+ */

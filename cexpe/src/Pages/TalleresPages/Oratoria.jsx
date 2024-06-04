@@ -1,16 +1,18 @@
-import NavBar from '../../Components/NavBar' ;
-import TalleresRouter from '../../Routes/TalleresRouter' 
+import NavBar from '../../Components/NavBar'
+import TalleresMenu from '../../Components/TalleresMenu'
 
 function Oratoria() {
 
     return (  
         <>
             <NavBar/> 
+
+            <TalleresMenu/>
+            
             <h1>
-                ESTAS EN LA PAGINA DE ORATORIA
+                ESTAS EN EL TALLER DE ORATORIA
             </h1>
 
-            <TalleresRouter/> 
         </>
     );
 }

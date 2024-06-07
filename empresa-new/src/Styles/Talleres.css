@@ -1,0 +1,25 @@
+/* Estilo para los elementos de la lista */
+.talleres-list {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 70px;
+}
+
+/* Estilo para los elementos de la lista cuando no están seleccionados */
+.talleres-link {
+    padding: 8px;
+    /* background-color: #f0f0f0; */
+    color: black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Estilo para los elementos de la lista cuando están seleccionados */
+.talleres-link.active {
+    background-color: black; /* Color de fondo diferente para los elementos seleccionados */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}

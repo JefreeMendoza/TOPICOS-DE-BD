@@ -1,0 +1,41 @@
+/* Estilos para el contenedor de la barra de navegación */
+.navbar {
+    width: 100%;
+    /* padding: 20px 0; */ /* Espacio en la parte superior e inferior */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    background-color: #f0f0f0; /* Fondo para visualizar el contorno de la navbar */
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+/* Estilos para el título de la barra de navegación */
+.navbar h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para la lista de enlaces de navegación */
+.navbar-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around; /* Espacio alrededor de los elementos */
+}
+
+/* Estilos generales para los enlaces de navegación */
+.navbar-link {
+    flex: 1;
+    padding: 15px 40px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin: 0 5px; /* Espacio entre los rectángulos */
+}
+
+/* Estilos para los enlaces de navegación activos */
+.navbar-link.active {
+    background-color: red;
+    color: white;
+}

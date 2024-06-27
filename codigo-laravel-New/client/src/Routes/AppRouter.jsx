@@ -2,53 +2,67 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from '../Pages/Home'
-import Programas from   '../Pages/Programas'
+import Programas from '../Pages/Programas'
 import Talleres from '../Pages/Talleres'
-import Asesoramiento from  '../Pages/Asesoramiento'
+import Asesoramiento from '../Pages/Asesoramiento'
 import Contacto from '../Pages/Contacto'
+import Login from '../Pages/Login'
+import Register from '../Pages/Register'
+
+
 import Danza from '../Pages/TalleresPages/Danza'
-import Baile from   '../Pages/TalleresPages/Baile'
+import Baile from '../Pages/TalleresPages/Baile'
 import Oratoria from '../Pages/TalleresPages/Oratoria'
-import Liderazgo from  '../Pages/TalleresPages/Liderazgo'
+import Liderazgo from '../Pages/TalleresPages/Liderazgo'
 
 function AppRouter() {
-    return (  
+    return (
         <BrowserRouter>
             <Routes>
                 <Route
                     exact path='/'
-                    element= {<Home/>}
+                    element={<Home />}
+                />
+
+                <Route
+                    exact path='/login'
+                    element={<Login />}
+                />
+
+                <Route
+                    exact path='/register'
+                    element={<Register />}
                 />
 
                 <Route
                     path='/programas'
-                    element= {<Programas/>}
+                    element={<Programas />}
                 />
 
                 <Route
                     path='/talleres'
-                    element= {<Talleres/>}
+                    element={<Talleres />}
                 />
 
 
                 <Route
                     exact path='/talleres/danza'
-                    element= {<Danza/>}
+                    element={<Danza />}
                 />
 
                 <Route
                     path='/talleres/baile'
-                    element= {<Baile/>}
+                    element={<Baile />}
                 />
 
                 <Route
                     path='/talleres/oratoria'
-                    element= {<Oratoria/>}
+                    element={<Oratoria />}
                 />
 
                 <Route
                     path='/talleres/liderazgo'
-                    element= {<Liderazgo/>}
+                    element={<Liderazgo />}
                 />
 
 
@@ -56,12 +70,12 @@ function AppRouter() {
 
                 <Route
                     path='/asesoramiento'
-                    element= {<Asesoramiento/>}
+                    element={<Asesoramiento />}
                 />
 
                 <Route
                     path='/contacto'
-                    element= {<Contacto/>}
+                    element={<Contacto />}
                 />
             </Routes>
         </BrowserRouter>

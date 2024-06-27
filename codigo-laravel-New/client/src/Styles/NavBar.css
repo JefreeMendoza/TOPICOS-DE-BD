@@ -3,7 +3,7 @@
     width: 100%;
     /* padding: 20px 0; */ /* Espacio en la parte superior e inferior */
     box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
-    background-color: #f0f0f0; /* Fondo para visualizar el contorno de la navbar */
+/*     background-color: #f0f0f0; */ /* Fondo para visualizar el contorno de la navbar */
     padding-bottom: 20px;
     margin-top: 50px;
 }

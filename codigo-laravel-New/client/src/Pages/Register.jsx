@@ -1,9 +1,16 @@
 import NavBar from "../Components/NavBar";
 import { useForm } from "react-hook-form";
+import { registerRequest } from "../api/auth";
 
 function Register() {
 
     const { register, handleSubmit } = useForm();
+
+    const onSubmit = handleSubmit(async (values) => {
+        console.log(values);
+        const res = await registerRequest(values);
+        console.log(res);
+    })
 
     return (
         <>
@@ -13,9 +20,7 @@ function Register() {
             </h1>
 
             <form
-                onSubmit={handleSubmit((values) => {
-                    console.log(values);
-                })}
+                onSubmit={onSubmit}
             >
                 <label htmlFor="">
                     Ingrese su User Name
